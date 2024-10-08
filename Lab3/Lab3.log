@@ -1,6 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.18)  2 OCT 2024 01:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.18)  8 OCT 2024 12:11
 entering extended mode
  restricted \write18 enabled.
+ file:line:error style messages enabled.
  %&-line parsing enabled.
 **Lab3.tex
 (./Lab3.tex
@@ -22,32 +23,25 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \abovecaptionskip=\skip48
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
-)
-(/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-)
-(/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
+) (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texmf-dist/tex/latex/graphics/trig.sty
+ (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-)
-(/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+) (/usr/share/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
-
-(/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-)
-(/usr/share/texmf-dist/tex/latex/listings/listings.sty
+) (/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count196
 \lst@gtempboxa=\box51
 \lst@token=\toks18
@@ -60,28 +54,22 @@ File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 \lst@newlines=\count266
 \lst@lineno=\count267
 \lst@maxwidth=\dimen146
-
-(/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
+ (/usr/share/texmf-dist/tex/latex/listings/lstpatch.sty
 File: lstpatch.sty 2024/02/21 1.10 (Carsten Heinz)
-)
-(/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
+) (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 \c@lstnumber=\count268
 \lst@skipnumbers=\count269
 \lst@framebox=\box52
-)
-(/usr/share/texmf-dist/tex/latex/listings/listings.cfg
+) (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2024/02/21 1.10 listings configuration
 ))
 Package: listings 2024/02/21 1.10 (Carsten Heinz)
-
-(/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+ (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+ (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+ (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count270
@@ -96,8 +84,7 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layouthoffset=\dimen153
 \Gm@layoutvoffset=\dimen154
 \Gm@dimlist=\toks19
-)
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count273
 \l__pdf_internal_box=\box53
@@ -118,8 +105,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
-
-(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count274
 \scratchdimen=\dimen155
@@ -134,12 +120,9 @@ LaTeX Font Info:    ... okay on input line 11.
 \everyMPtoPDFconversion=\toks21
 ) (/usr/share/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-85.
-
-(/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (/usr/share/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 \c@lstlisting=\count280
 
@@ -194,8 +177,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 23.
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/l9-lq.png (PNG co
-py)>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/l9-lq.png (PNG copy)>]
 <images/l9-quiz.png, id=13, 1154.81438pt x 657.95813pt>
 File: images/l9-quiz.png Graphic file (type png)
 <use images/l9-quiz.png>
@@ -212,8 +194,7 @@ File: images/l9-pbq-fbd.png Graphic file (type png)
 <use images/l9-pbq-fbd.png>
 Package pdftex.def Info: images/l9-pbq-fbd.png  used on input line 66.
 (pdftex.def)             Requested size: 426.79134pt x 205.56775pt.
-
-(/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
+ (/usr/share/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2024/02/21 1.10 listings language file
 )
 <images/l9-pbq-o.png, id=20, 461.47406pt x 30.86531pt>
@@ -226,9 +207,7 @@ File: images/l10-lq.png Graphic file (type png)
 <use images/l10-lq.png>
 Package pdftex.def Info: images/l10-lq.png  used on input line 93.
 (pdftex.def)             Requested size: 426.79134pt x 204.03406pt.
- [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/
-l9-pbq.png (PNG copy)> <./images/l9-pbq-fbd.png> <./images/l9-pbq-o.png (PNG co
-py)>]
+ [3{/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./images/l9-pbq.png (PNG copy)> <./images/l9-pbq-fbd.png> <./images/l9-pbq-o.png (PNG copy)>]
 <images/l10-lq-o.png, id=27, 156.585pt x 75.28125pt>
 File: images/l10-lq-o.png Graphic file (type png)
 <use images/l10-lq-o.png>
@@ -255,10 +234,8 @@ File: images/l10-pbq2.png Graphic file (type png)
 <use images/l10-pbq2.png>
 Package pdftex.def Info: images/l10-pbq2.png  used on input line 152.
 (pdftex.def)             Requested size: 426.79134pt x 422.91241pt.
- [5 <./images/l10-quiz.png (PNG copy)> <./images/l10-quiz-o.png (PNG copy)> <./
-images/l10-pbq1.png (PNG copy)>]
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 1
-64.
+ [5 <./images/l10-quiz.png (PNG copy)> <./images/l10-quiz-o.png (PNG copy)> <./images/l10-pbq1.png (PNG copy)>]
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 164.
  (/usr/share/texmf-dist/tex/latex/base/omlcmr.fd
 File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -285,8 +262,7 @@ File: images/l11-quiz.png Graphic file (type png)
 <use images/l11-quiz.png>
 Package pdftex.def Info: images/l11-quiz.png  used on input line 220.
 (pdftex.def)             Requested size: 426.79134pt x 223.82196pt.
- [7 <./images/l10-pbq-o.png (PNG copy)> <./images/l11-lq.png (PNG copy)> <./ima
-ges/l11-lq-o.png (PNG copy)>]
+ [7 <./images/l10-pbq-o.png (PNG copy)> <./images/l11-lq.png (PNG copy)> <./images/l11-lq-o.png (PNG copy)>]
 <images/l11-pbq.png, id=51, 533.74406pt x 294.34969pt>
 File: images/l11-pbq.png Graphic file (type png)
 <use images/l11-pbq.png>
@@ -298,8 +274,7 @@ File: images/l11-pbq-o.png Graphic file (type png)
 <use images/l11-pbq-o.png>
 Package pdftex.def Info: images/l11-pbq-o.png  used on input line 254.
 (pdftex.def)             Requested size: 227.62204pt x 89.26483pt.
- [9 <./images/l11-pbq-o.png (PNG copy)>]
-(./Lab3.aux)
+ [9 <./images/l11-pbq-o.png (PNG copy)>] (./Lab3.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -313,17 +288,8 @@ Here is how much of TeX's memory you used:
  563005 words of font info for 52 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  57i,6n,65p,445b,1622s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
-/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
->
-Output written on Lab3.pdf (9 pages, 2097604 bytes).
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on Lab3.pdf (9 pages, 2097773 bytes).
 PDF statistics:
  109 PDF objects out of 1000 (max. 8388607)
  57 compressed objects within 1 object stream

@@ -68,6 +68,26 @@ Reflection: In this lecture, we learned about how to solve for internal forces i
 
 \subsection{Question Bank Problems}
 
+\includegraphics[width=15cm]{l12-pbq1.png}
+
+\includegraphics[width=8cm]{l12-pbq2.png}
+
+When solving this problem in our Maple code, we can assume that, at point B, the normal is upwards, the sheer force is to the right, and the moment is into the page.
+These points are arbitrary since if we assume the opposite, we will get the same answer but with the opposite sign.
+With these facts, we can write out our Maple code as follows:
+
+\begin{lstlisting}[language=matlab]
+restart:
+solve([
+-2.5-5+N,
+0.8-0.4*2.5-M,
+V], [V,N,M]);
+\end{lstlisting}
+
+\includegraphics[width=15cm]{l12-pbq-o.png}
+
+We can see that the sheer force is 0 N, the normal force is 7.5 N upwards, and the moment is 0.2 N*m out of the page.
+
 \section{Lecture 13}
 
 \subsection{Lecture Questions}
@@ -117,6 +137,49 @@ We can see that the sheer force goes to 0 as we travel from left to right.
 \medskip
 
 Reflection: In this lecture, we learned about how to solve for the reaction forces at a point and then move from left to right to solve for the moment and the sheer force. This is a very useful technique that can be used to solve for the moment and sheer force in a system.
+
+\subsection{Question Bank Problems}
+
+\includegraphics[width=15cm]{l13-pbq.png}
+
+We can start by start by solving for the reactions at at points A and B.
+Given those reactions, we can proceed and solve for the moment and the sheer force as we move from left to right.
+
+For the reaction forces, at point B we have a single reaction force that is upwards.
+At point A, we have a normal force upwards and a force to the right.
+In the event that either force is negative, we can assume that the force is in the opposite direction.
+
+In regards to directions for the sheer force and moment, we can assume that the sheer force is acting upwards and the moment is out	of the page.
+
+For the By force in the context of the sheer force, we only need to consider at x=8.
+
+We can now write out our Maple code to solve this:
+
+\begin{lstlisting}[language=matlab]
+# Lecture 13 Problem Bank Question
+restart:
+p:=piecewise(x<8,40):
+solve([
+Ay+By-int(p, x=0..11)-20,
+Ax, # Only x force
+-int(x*p,x=0..11)+8*By-11*20-150], [Ax,Ay,By]); assign(%);
+
+# Now solve for sheer force
+
+solve([
+Ay-int(p,x=0..x)+piecewise(x=8, By)+V,
+-int(x*p,x=0..x)+piecewise(x=8, By*8)+x*V+M], [M, V]); assign(%);
+plot([V,M], x=0..11);
+\end{lstlisting}
+
+\includegraphics[width=15cm]{l13-pbq-o.png}
+
+We can see that initially the sheer force (red) is pointing down, but it eventually becomes more positive before reaching an upper limit once no new forces are being introduced.
+
+In regards to the moment, it initially starts at 0, then increases to a maximum point before continuously decreasing to a lower and lower value depending on the distance at which we calculate it.
+
+The negative moment means that it's acting into the page since it was assumed that the moment was acting out of the page in our initial assumptions.
+
 
 \end{document}
 

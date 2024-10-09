@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1728407642.4305 "Lab4.tex" "Lab4.pdf" "Lab4" 1728407643.50835 0
+["pdflatex"] 1728446155.53513 "Lab4.tex" "Lab4.pdf" "Lab4" 1728446156.68787 0
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1727349926 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1727349926 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1727349926 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
@@ -48,13 +48,18 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1727349926 41588 b43d3e860a4f94167ee1e725ff526a72 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1727375669.69396 5312047 b07fcd2a9090df96fc745b92a3db793b ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1726672555 7112990 df356764a274b11103c2f5a3f7989a98 ""
-  "Lab4.aux" 1728407643.39994 787 764fb39c8c74d9d16bbadd481f7beaa7 "pdflatex"
-  "Lab4.tex" 1728407640.98694 3293 5b9bb1366a2e349d73f987c9169995ea ""
+  "Lab4.aux" 1728446156.5678 902 09a17179bdd1ced55d2accbaadf16093 "pdflatex"
+  "Lab4.tex" 1728446154.7938 6036 2ca0c1c8833130b74cea71e3cec3ebb7 ""
   "images/l12-lq-o.png" 1728402852.03997 4674 f6caa0ea51cf12c9fe04bce63bb87c2d ""
   "images/l12-lq.png" 1728401610.32399 77755 0f5c72951b5dd0185e07b86c69e902d3 ""
+  "images/l12-pbq-o.png" 1728440242.74398 2700 c86e3dce262f08260dcccd3615b91dd2 ""
+  "images/l12-pbq1.png" 1728438568.60097 10102 2c2674f83b2ce2f50c45979622754b8c ""
+  "images/l12-pbq2.png" 1728438594.69397 56718 04c96dff1a543c97572e11ad67fcf408 ""
   "images/l12-quiz.png" 1728403094.71796 199596 5a71e2daa00e83e1c290722fa65280ba ""
   "images/l13-lq-o.png" 1728406940.95797 19066 9c32d25f0543d33fb82d9e5b3c5cdf28 ""
   "images/l13-lq.png" 1728405891.385 53883 0f6bc890ff87af1ca4ec1c2ee379b206 ""
+  "images/l13-pbq-o.png" 1728445709.63481 25062 38ab8561a3cb9e111ac48aef5220d414 ""
+  "images/l13-pbq.png" 1728440312.29298 60229 f697717455ab4012f320e625d4649e5d ""
   "images/l13-quiz-o.png" 1728407604.44495 17786 a64357b92e2de5010b55479c543c4224 ""
   "images/l13-quiz.png" 1728407097.90396 120786 427916b2c923819951700a9e059bd5df ""
   (generated)
